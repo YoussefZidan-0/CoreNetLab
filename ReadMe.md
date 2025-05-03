@@ -11,7 +11,7 @@ In the experiments, students will be exposed to different techniques such as rou
 The purpose of this github repository is two things:
 
 1. Share the labs with a wider community to maximize the benefits.
-2. Extend the labs by other contributors as in in open source project (see [How to Contribute](#how-to-contribute) below).
+2. Extend the labs by other contributors as in open source project (see [How to Contribute](#how-to-contribute) below).
 
 ## Core Setup Tutorial 
 
