@@ -1,0 +1,159 @@
+[1]+  Stopped                 ping 10.0.13.20
+root@n7:/tmp/pycore.47719/n7.conf# iperf3 -c 10.0.13.20 -t 40 -i 10 -w 1k
+Connecting to host 10.0.13.20, port 5201
+[  4] local 10.0.12.20 port 60642 connected to 10.0.13.20 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-10.00  sec  1.01 MBytes   845 Kbits/sec    0   5.45 KBytes       
+[  4]  10.00-20.00  sec  1.00 MBytes   841 Kbits/sec    0   5.45 KBytes       
+[  4]  20.00-30.00  sec  1.00 MBytes   840 Kbits/sec    0   5.45 KBytes       
+[  4]  30.00-40.00  sec  1023 KBytes   838 Kbits/sec    0   5.45 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-40.00  sec  4.01 MBytes   841 Kbits/sec    0             sender
+[  4]   0.00-40.00  sec  4.01 MBytes   841 Kbits/sec                  receiver
+
+iperf Done.
+root@n7:/tmp/pycore.47719/n7.conf# iperf3 -c 10.0.13.20 -t 40 -i 10 -w 2k
+Connecting to host 10.0.13.20, port 5201
+[  4] local 10.0.12.20 port 60644 connected to 10.0.13.20 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-10.00  sec  2.77 MBytes  2.32 Mbits/sec    0   7.07 KBytes       
+[  4]  10.00-20.00  sec  2.71 MBytes  2.28 Mbits/sec    0   7.07 KBytes       
+[  4]  20.00-30.00  sec  2.74 MBytes  2.30 Mbits/sec    0   7.07 KBytes       
+[  4]  30.00-40.00  sec  2.78 MBytes  2.34 Mbits/sec    0   7.07 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-40.00  sec  11.0 MBytes  2.31 Mbits/sec    0             sender
+[  4]   0.00-40.00  sec  11.0 MBytes  2.31 Mbits/sec                  receiver
+
+iperf Done.
+root@n7:/tmp/pycore.47719/n7.conf# iperf3 -c 10.0.13.20 -t 40 -i 10 -w 3k
+Connecting to host 10.0.13.20, port 5201
+[  4] local 10.0.12.20 port 60646 connected to 10.0.13.20 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-10.00  sec  5.60 MBytes  4.70 Mbits/sec    0   14.1 KBytes       
+[  4]  10.00-20.00  sec  5.57 MBytes  4.67 Mbits/sec    0   14.1 KBytes       
+[  4]  20.00-30.00  sec  5.56 MBytes  4.66 Mbits/sec    0   14.1 KBytes       
+[  4]  30.00-40.00  sec  5.55 MBytes  4.66 Mbits/sec    0   14.1 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-40.00  sec  22.3 MBytes  4.67 Mbits/sec    0             sender
+[  4]   0.00-40.00  sec  22.3 MBytes  4.67 Mbits/sec                  receiver
+
+iperf Done.
+root@n7:/tmp/pycore.47719/n7.conf# iperf3 -c 10.0.13.20 -t 40 -i 10 -w 4k
+Connecting to host 10.0.13.20, port 5201
+[  4] local 10.0.12.20 port 60648 connected to 10.0.13.20 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-10.00  sec  4.95 MBytes  4.15 Mbits/sec    0   14.1 KBytes       
+[  4]  10.00-20.00  sec  5.01 MBytes  4.21 Mbits/sec    0   14.1 KBytes       
+[  4]  20.00-30.00  sec  5.05 MBytes  4.24 Mbits/sec    0   14.1 KBytes       
+[  4]  30.00-40.00  sec  5.10 MBytes  4.27 Mbits/sec    0   14.1 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-40.00  sec  20.1 MBytes  4.22 Mbits/sec    0             sender
+[  4]   0.00-40.00  sec  20.1 MBytes  4.22 Mbits/sec                  receiver
+
+iperf Done.
+root@n7:/tmp/pycore.47719/n7.conf# iperf3 -c 10.0.13.20 -t 40 -i 10 -w 5k
+Connecting to host 10.0.13.20, port 5201
+[  4] local 10.0.12.20 port 60650 connected to 10.0.13.20 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-10.00  sec  5.21 MBytes  4.37 Mbits/sec    0   14.1 KBytes       
+[  4]  10.00-20.00  sec  5.20 MBytes  4.36 Mbits/sec    0   14.1 KBytes       
+[  4]  20.00-30.00  sec  5.24 MBytes  4.40 Mbits/sec    0   14.1 KBytes       
+[  4]  30.00-40.00  sec  5.16 MBytes  4.33 Mbits/sec    0   14.1 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-40.00  sec  20.8 MBytes  4.36 Mbits/sec    0             sender
+[  4]   0.00-40.00  sec  20.8 MBytes  4.36 Mbits/sec                  receiver
+
+iperf Done.
+root@n7:/tmp/pycore.47719/n7.conf# iperf3 -c 10.0.13.20 -t 40 -i 10 -w 6k
+Connecting to host 10.0.13.20, port 5201
+[  4] local 10.0.12.20 port 60652 connected to 10.0.13.20 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-10.00  sec   154 KBytes   126 Kbits/sec   86   4.24 KBytes       
+[  4]  10.00-20.00  sec   139 KBytes   114 Kbits/sec   85   4.24 KBytes       
+[  4]  20.00-30.00  sec   143 KBytes   117 Kbits/sec   87   4.24 KBytes       
+[  4]  30.00-40.00  sec   144 KBytes   118 Kbits/sec   87   4.24 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-40.00  sec   580 KBytes   119 Kbits/sec  345             sender
+[  4]   0.00-40.00  sec   570 KBytes   117 Kbits/sec                  receiver
+
+iperf Done.
+root@n7:/tmp/pycore.47719/n7.conf# iperf3 -c 10.0.13.20 -t 40 -i 10 -w 12k
+Connecting to host 10.0.13.20, port 5201
+[  4] local 10.0.12.20 port 60654 connected to 10.0.13.20 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-10.00  sec  1.74 MBytes  1.46 Mbits/sec  286   2.83 KBytes       
+[  4]  10.00-20.00  sec  1.76 MBytes  1.48 Mbits/sec  283   4.24 KBytes       
+[  4]  20.00-30.00  sec  2.05 MBytes  1.72 Mbits/sec  359   2.83 KBytes       
+[  4]  30.00-40.00  sec  2.18 MBytes  1.83 Mbits/sec  395   2.83 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-40.00  sec  7.73 MBytes  1.62 Mbits/sec  1323             sender
+[  4]   0.00-40.00  sec  7.72 MBytes  1.62 Mbits/sec                  receiver
+
+iperf Done.
+root@n7:/tmp/pycore.47719/n7.conf# iperf3 -c 10.0.13.20 -t 40 -i 10 -w 16k
+Connecting to host 10.0.13.20, port 5201
+[  4] local 10.0.12.20 port 60656 connected to 10.0.13.20 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-10.00  sec  1.77 MBytes  1.48 Mbits/sec  268   4.24 KBytes       
+[  4]  10.00-20.00  sec  1.85 MBytes  1.55 Mbits/sec  268   4.24 KBytes       
+[  4]  20.00-30.00  sec  1.85 MBytes  1.55 Mbits/sec  268   4.24 KBytes       
+[  4]  30.00-40.00  sec  1.80 MBytes  1.51 Mbits/sec  261   4.24 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-40.00  sec  7.27 MBytes  1.52 Mbits/sec  1065             sender
+[  4]   0.00-40.00  sec  7.25 MBytes  1.52 Mbits/sec                  receiver
+
+iperf Done.
+root@n7:/tmp/pycore.47719/n7.conf# iperf3 -c 10.0.13.20 -t 40 -i 10 -w 24k
+Connecting to host 10.0.13.20, port 5201
+[  4] local 10.0.12.20 port 60658 connected to 10.0.13.20 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-10.00  sec   270 KBytes   221 Kbits/sec   97   5.66 KBytes       
+[  4]  10.00-20.00  sec   218 KBytes   178 Kbits/sec   88   5.66 KBytes       
+[  4]  20.00-30.00  sec   257 KBytes   211 Kbits/sec  106   8.48 KBytes       
+[  4]  30.00-40.00  sec   277 KBytes   227 Kbits/sec  111   7.07 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-40.00  sec  1022 KBytes   209 Kbits/sec  402             sender
+[  4]   0.00-40.00  sec   981 KBytes   201 Kbits/sec                  receiver
+
+iperf Done.
+root@n7:/tmp/pycore.47719/n7.conf# iperf3 -c 10.0.13.20 -t 40 -i 10 -w 32k
+Connecting to host 10.0.13.20, port 5201
+[  4] local 10.0.12.20 port 60660 connected to 10.0.13.20 port 5201
+[ ID] Interval           Transfer     Bandwidth       Retr  Cwnd
+[  4]   0.00-10.00  sec   288 KBytes   236 Kbits/sec  109   9.90 KBytes       
+[  4]  10.00-20.00  sec   161 KBytes   132 Kbits/sec   94   21.2 KBytes       
+[  4]  20.00-30.00  sec   214 KBytes   175 Kbits/sec  113   7.07 KBytes       
+[  4]  30.00-40.00  sec   189 KBytes   155 Kbits/sec   98   15.6 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+[  4]   0.00-40.00  sec   853 KBytes   175 Kbits/sec  414             sender
+[  4]   0.00-40.00  sec   803 KBytes   164 Kbits/sec                  receiver
+
+
+make this into a matlab code to Plot the avg throughput and the avg number of retransmissions as function of window
+size.
+
+
+
+    WindowSize_KB    Data_MB    Throughput_MBps    Throughput_Mbps
+    _____________    _______    _______________    _______________
+
+          1            4.01         0.10025            0.10025    
+          2              11           0.275              0.275    
+          3            22.3          0.5575             0.5575    
+          4            20.1          0.5025             0.5025    
+          5            20.8            0.52               0.52    
+          6            0.58          0.0145             0.0145    
+         12            7.73         0.19325            0.19325    
+         16            7.27         0.18175            0.18175    
+         24           1.022         0.02555            0.02555    
+         32           0.853        0.021325           0.021325   

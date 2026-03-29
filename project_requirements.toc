@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}Effect of TCP Window Size}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Question 2.i}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Question 2.ii}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Question 2.iii}{4}{subsection.1.3}%
+\contentsline {section}{\numberline {2}TCP Short versus Long Paths}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Question 3.i}{5}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Higher Link Capacity with Drops versus Reliable Lower Capacity}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Question 4.i}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Question 4.ii}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Question 4.iii}{6}{subsection.3.3}%
+\contentsline {section}{\numberline {4}OSPF Link Cost Changes}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Question 5.i}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Question 5.ii}{8}{subsection.4.2}%
+\contentsline {section}{\numberline {5}OSPF Database Updates}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Question 6.i}{10}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Question 6.ii}{11}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Question 6.iii}{12}{subsection.5.3}%
